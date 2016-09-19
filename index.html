@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="slider/js/bjqs-1.3.min.js"></script>
+		<!-- Responsive viewport for smartphone devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- least.js 2 CSS file -->
+		<link href="least/src/css/least.min.css" rel="stylesheet" />
+
+		<title> Wild Circus </title>
+		<link rel="icon" type="image/png" href="image/favicon.jpg" />
+		<link rel="shortcut icon" type="image/jpg" href="image/favicon.jpg">
+
+
+	</head>
+	
+	<body>
+		
+		<header>
+			<img src="image/header.jpg" alt="WILD CIRCUS"/>
+		</header>
+		
+		<div class="menu">
+			<a href="#payment">Price</a>
+			<a href="#contact">Contact</a>
+			<a href="#dates-lieux">Dates and Places</a>
+			<a href="#gallery">Zoo</a>
+			<a href="#magic">Performance</a>
+		</div>
+
+		<div id="middle">
+			<nav id="navigation" role="navigation">
+				<h2>PROGRAM</h2>
+				<p>Hour: 09:30 am - 10:30 am</br>
+					Activity: Stunt</br>
+					Description: Dangerous Acrobatics & Spectacular Action</br>
+					Artist: Ezzo Loparelli</br>
+					---------------------
+				</p>
+				<p>
+					10:30 am - 11:30 am</br>
+					Taming</br>
+					Lion and Tiger in the circles of fire</br>
+					Marvin Josh</br>
+					---------------------
+				</p>
+				<p>
+					11:30 am - 12:30 am</br>
+					Dancing</br>
+					Elephant dancing around stunterman</br>
+					Céline Colin</br>
+					---------------------
+				</p>
+				<p>
+					12:30 am - 14:30 am</br>
+					Overlappe</br>
+					Horses overlappe</br>
+					Camille Gérard</br>
+					---------------------
+				</p>
+				<p>
+					14:30 am - 15:30 am</br>
+					Clown</br>
+					Magician and tomfoolery</br>
+					Dominique Dupont</br>
+					---------------------
+				</p>
+				<p>
+					15:30 am - 17:30 am</br>
+					Mummer</br>
+					Animal mimming</br>
+					Alexandre Marlot</br>
+					---------------------
+				</p>
+			</nav>
+			<div id="content">
+
+				<div id="section1">
+					<article id="news">
+
+						<h2>THREE NEWS SHOWS</h2>
+
+						<div id="banner-fade">
+							<ul class="bjqs">
+							  <li><img src="image/magie.jpg" title="A great magic trick"></li>
+							  <li><img src="image/ours1.jpg" title="The French bear"></li>
+							  <li><img src="image/stunt.jpg" title="Stunt"></li>
+							</ul>
+						 </div>
+
+						<script class="secret-source">
+						jQuery(document).ready(function($) {
+
+						  $('#banner-fade').bjqs({
+							height      : 320,
+							width       : 620,
+							responsive  : true
+						  });
+
+							});
+						</script>
+					</article>
+
+					<div id="offer">
+						<h2>DISCOUNT OFFER</h2>
+
+						<img src="image/special_offer.gif" alt="Spécial offer"/>
+						<p>One adult ticket</br>
+							=</br>
+							One children ticket</br>
+							</br>
+							DOWNLOAD TICKET HERE:</br>
+						</p>
+						<a href="free.pdf"> <img class="logo_pdf" src="image/logo-pdf.png"/>
+						</a>
+					</div>
+				</div>
+
+				<article id="gallery">
+					<h2>Zoo</h2>
+					<!-- Least Gallery -->
+					<section id="least">
+
+						<!-- Least Gallery: Thumbnails -->
+						<ul class="least-gallery">
+							<!-- 1 || Element with data-caption ||-->
+							<li>
+								<a href="https://en.wikipedia.org/wiki/Bear" target="_blank" title="BEAR" data-subtitle="View this animal" data-caption="<strong>Bold text</strong> normal caption text">
+									<img src="http://www.ferus.fr/wp-content/uploads/2010/11/FERUS-Eric-Durr-Ours-reproduction1.jpg" alt="Alt Image Text" />
+								</a>
+							</li>
+
+							<!-- 2 || Element with data-caption as href-attribute ||-->-->
+							<li>
+								<a href="https://en.wikipedia.org/wiki/Lion" target="_blank" title="LION" data-subtitle="View this animal" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>">
+									<img src="http://2.bp.blogspot.com/-k1LTVxtn0Ls/UA5xzZv7o9I/AAAAAAAANNE/7Wg33Qnv-Aw/s1600/Lion5+-+Copy.jpg" alt="Alt Image Text" />
+								</a>
+							</li>
+
+							<!-- 3 -->
+							<li>
+								<a href="https://en.wikipedia.org/wiki/Tiger" target="_blank" title="TIGER" data-subtitle="View this animal">
+									<img src="http://4.bp.blogspot.com/-BMAaQd1qRVU/T9uFsKuN8jI/AAAAAAAAABU/pokMz67n5CE/s1600/Tigres-4.jpg" alt="Alt Image Text" />
+								</a>
+							</li>
+
+							<!-- 4 -->
+							<li>
+								<a href="https://en.wikipedia.org/wiki/Elephant"target="_blank" title="ELEPHANT" data-subtitle="View this animal">
+									<img src="http://img0.mxstatic.com/wallpapers/0ed0b1a6e6d951379b106b7351274e4d_large.jpeg" alt="ELEPHANT" />
+								</a>
+							</li>
+
+							<!-- 5 -->
+							<li>
+								<a href="https://en.wikipedia.org/wiki/Horse" target="_blank" title="HORSE" data-subtitle="View this animal">
+									<img src="http://www.cheval-daventure.com/ch/images/Afrique/NAMIBIE/cheval_sauvage_namibie_randonnee_cheval002.jpg" alt="Alt Image Text" />
+								</a>
+							</li>
+
+							<!-- 6 -->
+							<li>
+								<a href="https://en.wikipedia.org/wiki/Hippopotamus" target="_blank" title="HIPOPOTAMUS" data-subtitle="View this animal">
+									<img src="http://www.awf.org/sites/default/files/media/gallery/wildlife/Hippo/h-Joe.jpg" alt="Alt Image Text" />
+								</a>
+							</li>
+
+
+						</ul>
+
+					</section>
+					<!-- Least Gallery end -->
+
+					<!-- jQuery library -->
+					<script src="least/src/js/libs/jquery/2.0.2/jquery.min.js"></script>
+					<!-- least.js library -->
+					<script src="least/src/js/libs/least/least.min.js"></script>
+
+				</article>
+				<div id="section2">
+					<article id="magic">
+						<h2>A great magic trick</h2>
+						<img src="image/magie.jpg" alt="Magic"/>
+
+						<p>
+							The great magician will make you a magic trick unusual that you did
+							probably never seen nowhere else, it will make disappear the subject of more and more .
+							It will start with object to mount in difficulty, a person then a car.</br>
+						</p>
+					</article>
+
+					<article id="bear">
+						<h2>The French bear</h2>
+						<img src="image/ours.jpg" alt="Bear"/>
+
+						<p>
+							The bear comes especially from France to an exceptional number of tap !
+							But that's not all, this bears full of other resources.
+							At the end of the show you can take a picture with him .
+						</p>
+					</article>
+				</div>
+				<div id="section3">
+					<article id="stunt">
+						<h2>Stunt</h2>
+						<img src="image/stunt.jpg" alt="Stunt"/>
+
+						<p>
+							Coming straight from Italy you will be captivated by this show that will unfold over you
+							enjoyed 50 meters from the ground , the two brothers will perform a series of jumps and chain
+							trapeze stunts that you have certainly not seen elsewhere .
+						</p>
+					</article>
+
+					<article id="payment">
+						<h2>Price</h2>
+						<p>
+							Children :	12 USD</br>
+							Adult : 15 USD</br>
+							Adult Group (4+) : 10 USD</br>
+							Adult Group (10+) : 9 USD</br>
+
+						</p>
+
+						</table>
+					</article>
+				</div>
+			</div>
+		</div> 
+
+		<footer>
+			
+			<div id="dates-lieux"/>
+				<h2>Dates and places :</h2></br>
+			<p>
+			<img src="image/circus.jpg" class="image_lieu" alt="Place"/>
+				-France (Bordeaux) 12/02/16</br>
+				-Belgium (Bruxelles) 03/04/16</br>
+				-Italy (Roma) 08/10/16</br>
+				-Spain (Madrid) 23/10/17</br>
+				For information on the next tour of 2017 <a href="#contact">Contact</a>		
+			</p>		
+			</div>
+
+			<div class="button">
+				<a href="#news" class="btn btn-default" role="button"> < Back to top > </a>
+			</div>
+			
+			<div id="contact"/>
+				<h2>Contact :</h2></br>
+				<p>
+					By mail: wild.circus@gmail.com</br>
+					By tel: +34 00 00 00 00</br>
+
+					23 Liberty Road</br>
+
+					Free City</br>
+
+					06660</br>
+				</p>		
+			</div>			
+		</footer>
+	</body>
+</html>
